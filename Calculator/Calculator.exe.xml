@@ -1,0 +1,10 @@
+<testsuites>
+	<testsuite name="AllTests" tests="2">
+		<testcase classname="AllTests" name="testInitialValue">
+			<failure message="..\src\test\Test.cpp:10 testInitialValue: 0 == calc.value() expected:	0	but was:	2685996	">
+testInitialValue: 0 == calc.value() expected:	0	but was:	2685996	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="testSpecifiedStartValue"/>
+	</testsuite>
+</testsuites>
