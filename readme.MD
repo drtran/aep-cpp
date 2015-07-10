@@ -1,8 +1,7 @@
 # Readme Notes for CPP Workspace using Eclipse C/C++ IDE along with CUTE
 
-** Instruction **
-- ** Do not ** change test.cpp that was created as a part of CUTE test project!
-
+## Instruction
+- 'DONOT' change test.cpp that was created as a part of CUTE test project!
 - Create a C++ Project
 - Select CUTE with MinGW (Do not use Cygwin because it will have a make problems!)
 - Make sure to select to include 'header files'
