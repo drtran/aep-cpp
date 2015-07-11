@@ -12,3 +12,14 @@ Feature: Saying Hello
     Given that I have a greeting software
     When I give a my friend name "Joseph" to the software I use
     Then I should NOT see a greeting message "Hello, Mark!"
+    
+  Scenario Outline: Saying Hello with a first name
+    Given that I have a greeting software
+    When I give a my friend name "<name>" to the software I use
+    Then I should see a greeting message "<greetings>"
+    Examples:
+    | name    | greetings    |
+    | Mark 	  | Hello, Mark! |
+    | John 	  | Hello, John! |
+    | Mary 	  | Hello, Mary! |
+    
