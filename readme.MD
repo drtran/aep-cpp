@@ -39,5 +39,12 @@ I create a skeleton for bank account test and left it as an exercise.
 Websites:
 JNI & C++:
 http://thebreakfastpost.com/2012/01/21/wrapping-a-c-library-with-jni-introduction/
+https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html
 
+
+@jni:target/classes folder:
+javah com.bemach.examples.jni.SayHelloJni
+
+@hello:src folder
+gcc -Wl,--add-stdcall-alias -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o hello.dll hello.c
 
