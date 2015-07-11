@@ -4,10 +4,30 @@
 		<testcase classname="pawnTest" name="shouldBeWhite"/>
 		<testcase classname="pawnTest" name="shouldBeBlack"/>
 	</testsuite>
-	<testsuite name="bankAccountTest" tests="1">
-		<testcase classname="bankAccountTest" name="thisIsAbankAccountTestTest">
-			<failure message="..\src\test\account\bankAccountTest.cpp:5 thisIsAbankAccountTestTest: start writing tests">
-thisIsAbankAccountTestTest: start writing tests
+	<testsuite name="bankAccountTest" tests="5">
+		<testcase classname="bankAccountTest" name="shouldAllowDeposit">
+			<failure message="..\src\test\account\bankAccountTest.cpp:5 shouldAllowDeposit: start writing tests">
+shouldAllowDeposit: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="bankAccountTest" name="shouldAllowWithdraw">
+			<failure message="..\src\test\account\bankAccountTest.cpp:9 shouldAllowWithdraw: start writing tests">
+shouldAllowWithdraw: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="bankAccountTest" name="shouldAllowWithdrawWithPenalty">
+			<failure message="..\src\test\account\bankAccountTest.cpp:13 shouldAllowWithdrawWithPenalty: start writing tests">
+shouldAllowWithdrawWithPenalty: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="bankAccountTest" name="shouldCalculateInterest">
+			<failure message="..\src\test\account\bankAccountTest.cpp:17 shouldCalculateInterest: start writing tests">
+shouldCalculateInterest: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="bankAccountTest" name="shouldCalculateInterestRate">
+			<failure message="..\src\test\account\bankAccountTest.cpp:21 shouldCalculateInterestRate: start writing tests">
+shouldCalculateInterestRate: start writing tests
 			</failure>
 		</testcase>
 	</testsuite>
