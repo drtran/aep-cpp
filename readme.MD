@@ -26,8 +26,11 @@ Then, I also creates test and cpp folders to contains my code. I move test.cpp i
 
 I create multiple test suites and add them into the main suite like this:
 > cute::suite s=make_suite_pawnTest();
+>
 > cute::makeRunner(lis,argc,argv)(s, "pawnTest");
+>
 > s=make_suite_bankAccountTest();
+>
 > cute::makeRunner(lis,argc,argv)(s, "bankAccountTest");
 
 I complete a simple test suite for the pawn class under chess src/chess folder.
