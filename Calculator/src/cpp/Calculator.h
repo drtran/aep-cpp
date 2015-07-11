@@ -13,11 +13,11 @@
 struct Calculator {
 	void add(const int& newValue);
 
- Calculator() {
-}
+	Calculator() {
+	}
 
- Calculator(int& startValue) : val(startValue) {
-}
+	Calculator(int& startValue) : val(startValue) {
+	}
 
 	int value() const;
 

@@ -1,20 +1,34 @@
 #include "cute.h"
 #include "pawnTest.h"
 
-//void thisIsApawnTestTest() {
-//	ASSERTM("start writing tests", false);
-//}
+#include "../../cpp/chess/pawn.h"
+
+using namespace std;
+
+string expectedColor;
+pawn aPawn;
+
+void setUp() {
+	cout << "setUp ... \n";
+}
 
 void canBeCreated() {
-	ASSERTM("start writing tests", false);
+	setUp();
+	ASSERTM("Success!", true);
 }
 
 void shouldBeWhite() {
-	ASSERTM("start writing tests", false);
+	setUp();
+	expectedColor = "white";
+	aPawn.setColor (expectedColor);
+	ASSERT_EQUAL(expectedColor, aPawn.getColor());
 }
 
 void shouldBeBlack() {
-	ASSERTM("start writing tests", false);
+	setUp();
+	expectedColor = "black";
+	aPawn.setColor (expectedColor);
+	ASSERT_EQUAL(expectedColor, aPawn.getColor());
 }
 
 cute::suite make_suite_pawnTest(){
