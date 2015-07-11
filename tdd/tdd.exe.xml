@@ -1,0 +1,19 @@
+<testsuites>
+	<testsuite name="pawnTest" tests="3">
+		<testcase classname="pawnTest" name="canBeCreated">
+			<failure message="..\src\test\chess\pawnTest.cpp:9 canBeCreated: start writing tests">
+canBeCreated: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="pawnTest" name="shouldBeWhite">
+			<failure message="..\src\test\chess\pawnTest.cpp:13 shouldBeWhite: start writing tests">
+shouldBeWhite: start writing tests
+			</failure>
+		</testcase>
+		<testcase classname="pawnTest" name="shouldBeBlack">
+			<failure message="..\src\test\chess\pawnTest.cpp:17 shouldBeBlack: start writing tests">
+shouldBeBlack: start writing tests
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>

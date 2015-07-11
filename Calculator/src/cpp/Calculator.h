@@ -11,6 +11,7 @@
 
 
 struct Calculator {
+	void add(const int& newValue);
 
  Calculator() {
 }
@@ -21,7 +22,7 @@ struct Calculator {
 	int value() const;
 
 private:
-	int val;
+	int val = 0;
 };
 
 
