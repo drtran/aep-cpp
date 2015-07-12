@@ -41,6 +41,9 @@ JNI & C++:
 http://thebreakfastpost.com/2012/01/21/wrapping-a-c-library-with-jni-introduction/
 https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html
 
+Add these to PATH on Windows:
+c:\MinGW\bin;C:\MinGW\msys\1.0;
+
 
 @jni:target/classes folder:
 javah com.bemach.examples.jni.SayHelloJni
